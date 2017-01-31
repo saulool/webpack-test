@@ -20,13 +20,13 @@ module.exports = {
 			loader: 'babel-loader',
 			query: {
 			    plugins: ['transform-runtime'],
-          		presets: ['es2015', 'stage-0']
+				presets: ['es2015', 'stage-0']
 			}
 		}
     ]
   },
   plugins: [
-    //new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
     new HtmlWebpackPlugin({template: './src/index.html'})
   ]
 };

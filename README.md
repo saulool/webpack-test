@@ -5,3 +5,4 @@ Test project using Webpack2
 ```
 npm install && npm run server
 ```
+Then go to [http://localhost:3005/](http://localhost:3005/)

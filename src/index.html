@@ -2,11 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Webpack Example</title>
 </head>
 <body>
-	<h1 class="light-text">Webpack 2 Example</h1>
-	
-	<h2 class="light-text">Using ES6 Features</h2>
+	<nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Webpack Example</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div>
+        <h1>Transform text to uppercase</h1>
+        <form id="uppercase-form">
+		  <div class="form-group">
+		    <input type="text" class="form-control" id="text-to-uppercase" placeholder="Insert your text here">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Transform!</button>
+		</form>
+      </div>
+
+      <p class="result lead"></p>
+
+    </div><!-- /.container -->
 </body>
 </html>

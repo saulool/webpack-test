@@ -1,10 +1,5 @@
 $white: #fff;
-$black: #000;
 
-html{
-	background-color: $black;
-}
-
-.light-text{
-	color: $white;
+body {
+	background-color: darken($white, 5%);
 }
